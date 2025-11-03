@@ -2,7 +2,7 @@
 import BlogCard from './components/BlogCard';
 
 // 2. ІМПОРТУЄМО ЗОБРАЖЕННЯ
-import blogImage from './assets/Blog Image.png';
+import blogImage from './assets/blog-header.png';
 import authorAvatar from './assets/avatar_male.png';
 
 function App() {
