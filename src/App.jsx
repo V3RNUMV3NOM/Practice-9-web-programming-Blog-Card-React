@@ -1,21 +1,25 @@
-// 1. Імпортуємо наш новий компонент BlogCard
+// 1. Імпортуємо наш компонент
 import BlogCard from './components/BlogCard';
 
+// 2. ІМПОРТУЄМО ЗОБРАЖЕННЯ
+import blogImage from './assets/Blog Image.png';
+import authorAvatar from './assets/avatar_male.png';
+
 function App() {
-  // 2. Створюємо об'єкт з даними для нашої картки
-  // (ми беремо ці дані з index.html)
+  // 3. Створюємо об'єкт з даними для нашої картки
   const blogPost = {
-    imageSrc: 'public/assets/Blog Image.png',
+    // 4. Використовуємо змінні замість рядків
+    imageSrc: blogImage,
     imageAlt: 'Ілюстрація блогу',
     category: 'Навчання',
     date: 'Опубліковано 22 Вересня 2025',
     title: 'HTML & CSS foundations',
     description: 'Ці мови є основою всіх веб-сайтів, визначаючи структуру, вміст та презентацію.',
-    authorAvatar: 'public/assets/avatar_male.png',
+    // 5. Використовуємо змінні замість рядків
+    authorAvatar: authorAvatar,
     authorName: 'Крилов Павло'
   };
 
-  // 3. Рендеримо (показуємо) компонент і передаємо йому дані
   return (
     <BlogCard cardData={blogPost} />
   );
