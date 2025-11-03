@@ -5,13 +5,13 @@ function App() {
   // 2. Створюємо об'єкт з даними для нашої картки
   // (ми беремо ці дані з index.html)
   const blogPost = {
-    imageSrc: '/assets/Blog Image.png',
+    imageSrc: 'public/assets/Blog Image.png',
     imageAlt: 'Ілюстрація блогу',
     category: 'Навчання',
     date: 'Опубліковано 22 Вересня 2025',
     title: 'HTML & CSS foundations',
     description: 'Ці мови є основою всіх веб-сайтів, визначаючи структуру, вміст та презентацію.',
-    authorAvatar: '/assets/avatar_male.png',
+    authorAvatar: 'public/assets/avatar_male.png',
     authorName: 'Крилов Павло'
   };
 
